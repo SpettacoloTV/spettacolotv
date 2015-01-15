@@ -1,0 +1,57 @@
+[
+  {
+    "id": "americanhorrorstory",
+    "name": "American Horror Story",
+    "cast": [
+      "Connie Britton",
+      "Dylan McDermott",
+      "Evan Peters",
+      "Taissa Farmiga",
+      "Denis O'Hare",
+      "Jessica Lange",
+      "Zachary Quinto",
+      "Joseph Fiennes",
+      "Lily Rabe",
+      "Lizzie Brocheré",
+      "James Cromwell",
+      "Frances Conroy",
+      "Emma Roberts",
+      "Kathy Bates",
+      "Michael Chiklis",
+      "Finn Wittrock",
+      "Angela Bassett"
+    ],
+    "genre": [
+      "Thriller",
+      "Horror",
+      "Terror"
+    ],
+    "country": "Estados Unidos",
+    "seasons": 4,
+    "argument": "La primera temporada, cuyo nombre se cambió posteriormente a American Horror Story: Murder House, tiene lugar en 2011 y cuenta la historia de una familia que se muda a una casa embrujada por sus anteriores habitantes. La segunda temporada, titulada American Horror Story: Asylum, tiene lugar en 1964 y cuenta la historia de los habitantes de un hospital psiquiátrico. La tercera temporada, titulada American Horror Story: Coven, tiene lugar en el siglo XIX y en el presente y relata el enfrentamiento entre brujas y practicantes de vudú. Finalmente, la cuarta y actual temporada llamada American Horror Story: Freak Show tiene lugar en Jupiter, Florida y se centra en los pocos circos de fenómenos restantes de los años cincuenta y las acciones que los mismos cometen con tal de mantener su negocio a flote."
+  },
+  {
+    "id": "arrow",
+    "name": "Arrow",
+    "cast": [
+      "Stephen Amell",
+      "Katie Cassidy",
+      "Colin Donnell",
+      "David Ramsey",
+      "Willa Holland",
+      "Susanna Thompson",
+      "Paul Blackthorne",
+      "Emily Bett Rickards",
+      "Colton Haynes",
+      "Manu Bennett",
+      "John Barrowman"
+    ],
+    "genre": [
+      "Drama",
+      "Ciencia ficción"
+    ],
+    "country": "Estados Unidos",
+    "seasons": 3,
+    "argument": "Arrow es una serie de televisión estadounidense de género dramático creada por Greg Berlanti, Marc Guggenheim y Andrew Kreisberg, basada en la historia del superhéroe de DC Comics Flecha Verde, y protagonizada por Stephen Amell, Katie Cassidy y Colin Donnell, la cual fue estrenada el 10 de octubre de 2012.1 2 En Latinoamérica, la serie fue estrenada el 22 de octubre por Warner Channel.3 En España se estrenó el 14 de noviembre de 2012 en el canal de cable Calle 13. En México, Canal 5 estrenó la serie el 6 de mayo de 2013.4"
+  }
+]

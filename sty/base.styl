@@ -1,0 +1,410 @@
+@import "nib"
+@import "style.css"
+
+
+//Variables
+rosa = #ed1971
+gris = #323131
+azul_oscuro = #323956
+OpenSans = 'Open Sans', sans-serif
+ABeeZee = 'ABeeZee', sans-serif
+icon = 'spe'
+
+//OOCSS
+.relative
+	position relative
+.absolute
+	position absolute
+	
+.red:before
+	color red !important
+.azul:before
+	color #00B6FC !important
+.orange:before
+	color orange !important
+.white:before
+	color white !important
+.green:before
+	color #19E319 !important
+	
+body
+	font-family OpenSans
+
+figure
+	margin 0
+
+ul
+	margin 0
+	-moz-padding-start 0
+	-webkit-padding-start 0
+
+#header
+	background linear-gradient(top, white, #E6E6E6)
+	padding 0 0 13px 0
+	width 100%
+	#search
+		margin 0 auto 20px auto
+		width 240px
+		#c_search
+			background white
+			border 2px solid #cad5db
+			border-radius 16px
+			box-shadow 0px 0px 0px 1px rgba(255, 255, 255, 0.21)
+			color #3A3A3A
+			font-size 13px
+			font-style italic
+			font-weight 300
+			height 27px
+			padding 2px 7px
+			transition all .3s
+			width 220px
+			&:focus
+				outline none
+				box-shadow 0px 0px 0px 1px rgba(255, 255, 255, 0.60)
+		.spe_magnifier12
+			color #7b919c
+			right 12px
+			top 9px
+	.spe_email20
+		color #7b919c
+		font-size 27px
+		font-weight 600
+		position absolute
+		right 10px
+		top 21px
+	#avatar
+		text-align center
+		.avatar
+			width 44px
+			height 44px
+			border-radius 50%
+		.username
+			font-size 13px
+			color #70706B
+		.avatar, .username
+			display inline-block
+			vertical-align middle
+			
+#der
+	background #2b2f3f
+	.spe_menu48
+			color #70706B
+			font-size 30px
+			margin 20px
+
+#form
+	margin 0 auto
+	width 90%
+	.show
+		background azul_oscuro
+		border none
+		border-radius 10px 10px 0 0
+		color white
+		font-family ABeeZee
+		padding 10px
+		.cantidad
+			background white
+			color azul_oscuro
+			border-radius 50%
+			padding 5px
+	.panel
+		border 1px solid azul_oscuro
+		border-radius 0 10px 10px 10px
+	.open_close
+		background azul_oscuro
+		border-radius 0px 10px 0 0
+		color white
+		font-size 14px
+		padding 10px
+		position relative
+		font-family ABeeZee
+		.close
+			background none
+			border none
+			color white
+			position absolute
+			right 8px
+	.textarea
+		border 1px solid rgb(182, 182, 182)
+		box-sizing border-box
+		display block
+		font-size 15px
+		height 100px
+		margin 20px auto 0
+		padding 10px
+		transition all .2s
+		width 90%
+		&:focus
+			border 1px solid #6B6B6B
+			outline none
+	.email
+		border 1px solid rgb(182, 182, 182)
+		box-sizing border-box
+		display block
+		font-size 15px
+		height 34px
+		margin 10px auto 0
+		padding 10px
+		transition all .2s
+		width 90%
+		&:focus
+			border 1px solid #6B6B6B
+			outline none
+	.anonimo
+		color rgb(157, 157, 157)
+		display block
+		margin 10px auto
+		width 90%
+	.comentar
+		background azul_oscuro
+		border none
+		color white
+		display block
+		font-family 'ABeeZee',sans-serif
+		font-size 14px
+		margin 15px auto
+		padding 10px 20px
+		transition all .2s
+		&:hover
+			background #545D82
+		&:focus
+			outline none
+
+#logo
+	background rgb(219, 219, 219)
+	padding 20px 0
+	img
+		display block
+		margin 0 auto
+		width 200px
+#menu
+	display block
+	nav
+		.item
+			display block
+			font-size 15px
+			text-align center
+			a
+				color rgba(255, 255, 255, 0.91)
+				display block
+				font-family icon, ABeeZee
+				font-weight 300
+				height 55px
+				line-height 55px
+				text-decoration none
+				transition all .3s
+				&:hover
+					background #252937
+				&:before
+					color white
+					margin 0 5px
+		#collection
+				a:before
+					content "•"
+					margin 0
+					font-size 21px
+		.princ
+			background #252937
+			color white
+			display block
+			font-family ABeeZee
+			font-size 14px
+			height 55px
+			line-height 55px
+			text-align center
+			text-transform uppercase
+
+#serie_open
+	border-bottom 2px solid rgb(176, 176, 176)
+	box-shadow 0px 0px 17px 5px rgba(0, 0, 0, 0.29)
+	margin-bottom 25px
+	padding-bottom 25px
+	h2, h3
+		margin 0
+	.picture
+		img
+			width 100%
+		.name
+			bottom 5px
+			color white
+			left 0
+			right 0
+			text-align center
+			z-index 999
+			h2
+				font-size 50px
+				text-shadow 1px 1px 1px black
+	.contenido
+		position relative
+		z-index 9999
+		.description
+			color gris
+			padding 0 20px
+			box-sizing border-box	
+			.genre-comedia
+				background #f00
+				border-radius 12px
+				box-shadow 1px 1px 2px rgba(0, 0, 0, 0.5)
+				color white
+				margin 0 10px
+				padding 2px 10px
+				position relative
+				text-shadow 2px 2px 2px rgba(0, 0, 0, 0.69)
+			.genre-crimen
+				background white
+				border-radius 12px
+				box-shadow 1px 1px 2px rgba(0, 0, 0, 0.5)
+				color gris
+				margin 0 10px
+				padding 2px 10px
+				position relative
+			.genre-drama
+				background #00B6FC
+				border-radius 12px
+				box-shadow 1px 1px 2px rgba(0, 0, 0, 0.5)
+				color white
+				margin 0 10px
+				padding 2px 10px
+				position relative
+			.genre-animación
+				background orange
+				border-radius 12px
+				box-shadow 1px 1px 2px rgba(0, 0, 0, 0.5)
+				color white
+				margin 0 10px
+				padding 2px 10px
+				position relative
+			.genre-musical
+				background #43CB43
+				border-radius 12px
+				box-shadow 1px 1px 2px rgba(0, 0, 0, 0.5)
+				color white
+				margin 0 10px
+				padding 2px 10px
+				position relative
+			.genre-thriller
+				background #292929
+				border-radius 12px
+				box-shadow 1px 1px 2px rgba(0, 0, 0, 0.5)
+				color white
+				margin 0 10px
+				padding 2px 10px
+				position relative
+			.genre-terror
+				background #FFF800
+				border-radius 12px
+				box-shadow 1px 1px 2px rgba(0, 0, 0, 0.5)
+				color #454545
+				margin 0 10px
+				padding 2px 10px
+				position relative
+		.poster
+			text-align center
+			width 100%
+			img
+				display block
+				margin 20px auto
+				width 100%
+		strong
+			font-weight 600
+			font-size 17px
+		p
+			font-weight 300
+
+#series_princ
+	padding 0 20px
+	text-align center
+	.serie
+		cursor pointer
+		display inline-block
+		margin 10px
+		opacity 10
+		text-align left
+		transition all .3s
+		width 250px
+		&:hover
+			opacity .8
+		p
+			margin 0
+		.s
+			width 100%
+		.name
+			color #383838
+			font-weight 600
+			padding 0 5px
+.espacio
+	display none
+//Media Queries
+
+@media screen and (min-width: 450px)
+	#der
+		bottom 0
+		position fixed
+		top 102px
+		width 200px
+		.spe_menu48
+			display none
+	#header
+		text-align center
+		.spe_email20
+			position relative
+			right 0
+			top 0
+		#search, #contact, #avatar
+			display inline-block
+			margin 0 20px
+			vertical-align middle
+	#container
+		margin-left 200px
+	#serie_open .contenido
+		.poster
+			display block
+			margin 0 auto
+			width 400px
+		
+@media screen and (min-width: 680px)
+	#logo img
+		margin 0
+		width 100%
+		
+@media screen and (min-width: 950px)
+	#der
+		bottom 0
+		left 0
+		position fixed
+		top 0
+	#header
+		height 66px
+		left 200px
+		position fixed
+		right 0
+		top 0
+		z-index 999999999
+		#search, #contact, #avatar
+			margin 0 50px 0 0
+	.espacio
+		display block
+		margin-bottom 35px
+			
+@media screen and (min-width: 1000px)
+	#serie_open
+		position relative
+		.picture
+			display block
+			height 397px
+			margin-bottom 20px
+			overflow hidden
+		.contenido
+			margin 0 auto
+			width 1000px
+			.poster
+				width 400px
+				img
+					width 370px
+			.description
+				width 500px
+			.poster, .description
+				display inline-block
+				vertical-align top
+	#form
+		width 1000px
